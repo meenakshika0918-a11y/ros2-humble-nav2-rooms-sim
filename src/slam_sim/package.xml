@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>slam_sim</name>
+  <version>1.0.0</version>
+  <description>Differential drive robot (lidar + depth camera) SLAM simulation in Gazebo with slam_toolbox (ROS 2 Humble)</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros_pkgs</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
